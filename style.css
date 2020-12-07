@@ -44,19 +44,19 @@
   background-color: white;
 }
 .light-mode .bg00 {
-  background-color: #ededed;
+  background-color: #FFFFFF;
 }
 .light-mode .bg01 {
-  background-color: #e0e0e0;
+  background-color: #f2f2f2;
 }
 .light-mode .bg02 {
-  background-color: lightgray;
+  background-color: #e6e6e6;
 }
 .light-mode .bg03 {
-  background-color: #c7c7c7;
+  background-color: #d9d9d9;
 }
 .light-mode .bg04 {
-  background-color: #bababa;
+  background-color: #cccccc;
 }
 .light-mode .txt00 {
   color: black;
@@ -221,6 +221,7 @@ input:checked + .slider:before {
   border: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  transition: background-color 0.25s ease;
 }
 
 #dark-mode-switch {
@@ -269,6 +270,12 @@ input:checked + .slider:before {
 }
 .content .footer div {
   margin-bottom: 0;
+}
+
+@media only screen and (max-width: 975px) {
+  .content {
+    font-size: 10pt;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

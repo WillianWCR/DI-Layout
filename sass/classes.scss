@@ -44,23 +44,23 @@
     background-color: white;
 
     .bg00{
-        background-color: invert($bg00);
+        background-color: $bg10;
     }
     
     .bg01{
-        background-color: invert($bg01);
+        background-color: $bg09;
     }
     
     .bg02{
-        background-color: invert($bg02);
+        background-color: $bg08;
     }
     
     .bg03{
-        background-color: invert($bg03);
+        background-color: $bg07;
     }
     
     .bg04{
-        background-color: invert($bg04);
+        background-color: $bg06;
     }
     
     .txt00{

@@ -7,6 +7,7 @@
     box-sizing: border-box;
 
     font-family: 'Open Sans', sans-serif;
+    transition: background-color 0.250s ease;
 }
 
 #dark-mode-switch{
@@ -63,5 +64,11 @@
         div{
             margin-bottom: 0;
         }
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .content{
+        font-size: 10pt;
     }
 }

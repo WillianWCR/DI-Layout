@@ -1,5 +1,8 @@
 /* COLORS */
 
+$white: #FFFFFF;
+$black: #000000;
+
 $bg00: #121212;
 $bg01: lighten($bg00, 5%);
 $bg02: lighten($bg00, 10%);
@@ -11,3 +14,10 @@ $txt01: lighten($bg00, 85%);
 $txt02: lighten($bg00, 75%);
 $txt03: lighten($bg00, 60%);
 $txt04: lighten($bg00, 45%);
+
+$bg05: darken($white, 25%);
+$bg06: darken($white, 20%);
+$bg07: darken($white, 15%);
+$bg08: darken($white, 10%);
+$bg09: darken($white, 5%);
+$bg10: $white;
