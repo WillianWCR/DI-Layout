@@ -1,0 +1,85 @@
+/* CLASSES */
+
+.bg00{
+    background-color: $bg00;
+}
+
+.bg01{
+    background-color: $bg01;
+}
+
+.bg02{
+    background-color: $bg02;
+}
+
+.bg03{
+    background-color: $bg03;
+}
+
+.bg04{
+    background-color: $bg04;
+}
+
+.txt00{
+    color: $txt00;
+}
+
+.txt01{
+    color: $txt01;
+}
+
+.txt02{
+    color: $txt02;
+}
+
+.txt03{
+    color: $txt03;
+}
+
+.txt04{
+    color: $txt04;
+}
+
+.light-mode{
+    background-color: white;
+
+    .bg00{
+        background-color: invert($bg00);
+    }
+    
+    .bg01{
+        background-color: invert($bg01);
+    }
+    
+    .bg02{
+        background-color: invert($bg02);
+    }
+    
+    .bg03{
+        background-color: invert($bg03);
+    }
+    
+    .bg04{
+        background-color: invert($bg04);
+    }
+    
+    .txt00{
+        color: invert($txt00);
+    }
+    
+    .txt01{
+        color: invert($txt01);
+    }
+    
+    .txt02{
+        color: invert($txt02);
+    }
+    
+    .txt03{
+        color: invert($txt03);
+    }
+    
+    .txt04{
+        color: invert($txt04);
+    }
+}

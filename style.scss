@@ -1,0 +1,67 @@
+@import 'sass/mixins.scss';
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dark-mode-switch{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+
+.content{
+    max-width: 975px;
+    width: 90%;
+    border-radius: 5px;
+    margin: 100px auto;
+
+    .title{
+        line-height: 100px;
+        margin-left: 25px;
+    }
+
+    .container{
+        width: 100%;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 25px;
+        margin-top: -25px;
+        
+        .box{
+            border-radius: 5px;
+            padding: 25px;
+            display:table-cell;
+            vertical-align: middle;
+        }
+    }
+
+    .header{
+        height: 220px;
+    }
+
+    .body{
+        height: 600px;
+
+        .conteudo{
+            width: 60%;
+        }
+
+        .menu{
+            width: 40%;
+        }
+    }
+
+    .footer{
+        height: 240px;
+
+        div{
+            margin-bottom: 0;
+        }
+    }
+}

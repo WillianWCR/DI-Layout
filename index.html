@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Prova prática - Design de Interface</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg00">
+    <label class="switch" for="checkbox" title="Change color scheme to dark mode" id="dark-mode-switch">
+        <input type="checkbox" id="checkbox" value="true" checked/>
+        <div class="slider round"></div>
+        <div class="toggle-moon">🌙</div>
+        <div class="toggle-sun">☀️</div>
+    </label>
+    <div class="bg01 content">
+        <span class="txt04 title">#GLOBAL</span>
+        <div class="header container">
+            <div class="bg02 box">
+                <span class="txt04">#TOPO</span>
+            </div>
+        </div>
+        <div class="body container">
+            <div class="bg02 box conteudo">
+                <span class="txt04">#CONTEUDO</span>
+            </div>
+            <div class="bg02 box menu">
+                <span class="txt04">#MENU</span>
+            </div>
+        </div>
+        <div class="footer container">
+            <div class="bg02 box">
+                <span class="txt04">#RODAPE</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleLightMode() {
+            var element = document.getElementsByTagName("body")[0];
+            element.classList.toggle("light-mode");
+        }
+
+        document.getElementById('dark-mode-switch').onchange = function(){
+            toggleLightMode();
+        };
+    </script>
+</body>
+</html>
